@@ -23,7 +23,7 @@ type ProjectMediaProps = {
     results: string[];
     gallery?: GalleryImage[];
     coverImage: { file: string; folder?: string };
-    visualMode?: VisualMode;
+    visualMode?: VisualMode | string;
     timeline?: string;
     industry?: string;
     liveUrl?: string;
@@ -113,10 +113,16 @@ export default function ProjectMedia({ project }: ProjectMediaProps) {
     ? [{ ...coverImage }, ...gallery]
     : [{ ...coverImage }];
 
+  // Validate and convert visualMode to proper type
+  const isValidVisualMode = (mode: string | undefined): mode is VisualMode => {
+    return mode === "caseStudy" || mode === "process" || mode === "techStack" || mode === "dataViz";
+  };
+
   const visualMode: VisualMode =
-    project.visualMode ??
-    DEFAULT_MODE_BY_CATEGORY[project.category] ??
-    "caseStudy";
+    (project.visualMode && isValidVisualMode(project.visualMode))
+      ? project.visualMode
+      : DEFAULT_MODE_BY_CATEGORY[project.category] ??
+        "caseStudy";
 
   switch (visualMode) {
     case "process":

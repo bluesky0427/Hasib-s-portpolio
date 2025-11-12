@@ -2,9 +2,17 @@ import { notFound } from "next/navigation";
 import { findProject } from "@/data/projects";
 import ProjectMedia from "@/components/ProjectMedia";
 
+type VisualMode = "caseStudy" | "process" | "techStack" | "dataViz";
+
 export default function ProjectDetail({ params }: { params: { slug: string } }) {
   const project = findProject(params.slug);
   if (!project) return notFound();
+
+  // Type assertion to ensure visualMode is properly typed
+  const projectForMedia = {
+    ...project,
+    visualMode: (project.visualMode as VisualMode) || undefined,
+  };
 
   return (
     <div className="space-y-12">
@@ -39,7 +47,7 @@ export default function ProjectDetail({ params }: { params: { slug: string } }) 
 
       <section className="grid lg:grid-cols-[1.6fr,1fr] gap-10">
         <div className="space-y-8">
-          <ProjectMedia project={project} />
+          <ProjectMedia project={projectForMedia} />
         </div>
         <aside className="space-y-8">
           <div className="rounded-2xl border border-gray-200/70 dark:border-gray-800/80 bg-white/70 dark:bg-gray-900/60 backdrop-blur px-6 py-6">
