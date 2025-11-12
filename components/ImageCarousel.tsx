@@ -25,26 +25,51 @@ export default function ImageCarousel({ images }: { images: ImageItem[] }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [imageErrors, setImageErrors] = useState<Set<number>>(new Set());
 
+  // Filter out failed images for navigation
+  const validImages = images.filter((_, index) => !imageErrors.has(index));
+  const validIndices = images.map((_, index) => index).filter((index) => !imageErrors.has(index));
+
+  const currentValidIndex = validIndices.includes(currentIndex) 
+    ? validIndices.indexOf(currentIndex) 
+    : validIndices.length > 0 ? 0 : -1;
+
   useEffect(() => {
+    if (validImages.length <= 1) return;
     const timer = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % images.length);
-    }, 5000); // Auto-advance every 5 seconds
+      setCurrentIndex((prev) => {
+        const currentValid = validIndices.includes(prev) ? validIndices.indexOf(prev) : 0;
+        const nextValid = (currentValid + 1) % validImages.length;
+        return validIndices[nextValid];
+      });
+    }, 5000);
     return () => clearInterval(timer);
-  }, [images.length]);
+  }, [validImages.length, validIndices.join(',')]);
 
   const goToPrevious = () => {
-    setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
+    if (validImages.length === 0) return;
+    setCurrentIndex((prev) => {
+      const currentValid = validIndices.includes(prev) ? validIndices.indexOf(prev) : 0;
+      const prevValid = (currentValid - 1 + validImages.length) % validImages.length;
+      return validIndices[prevValid];
+    });
   };
 
   const goToNext = () => {
-    setCurrentIndex((prev) => (prev + 1) % images.length);
+    if (validImages.length === 0) return;
+    setCurrentIndex((prev) => {
+      const currentValid = validIndices.includes(prev) ? validIndices.indexOf(prev) : 0;
+      const nextValid = (currentValid + 1) % validImages.length;
+      return validIndices[nextValid];
+    });
   };
 
   const goToSlide = (index: number) => {
-    setCurrentIndex(index);
+    if (validIndices[index] !== undefined) {
+      setCurrentIndex(validIndices[index]);
+    }
   };
 
-  if (images.length === 0) return null;
+  if (images.length === 0 || validImages.length === 0) return null;
 
   return (
     <div className="relative w-full group">
@@ -56,18 +81,7 @@ export default function ImageCarousel({ images }: { images: ImageItem[] }) {
           const hasError = imageErrors.has(index);
 
           if (hasError) {
-            return (
-              <div
-                key={index}
-                className={`absolute inset-0 transition-all duration-700 ${
-                  isActive ? "opacity-100 translate-x-0" : "opacity-0 translate-x-full"
-                } flex items-center justify-center bg-gradient-to-br from-gray-100 via-gray-50 to-white dark:from-gray-800 dark:via-gray-900 dark:to-gray-900`}
-              >
-                <span className="text-sm text-gray-500 dark:text-gray-300">
-                  Image not found: {img.folder ? `${img.folder}/${img.file}` : img.file}
-                </span>
-              </div>
-            );
+            return null; // Don't render failed images
           }
 
           return (
@@ -94,7 +108,7 @@ export default function ImageCarousel({ images }: { images: ImageItem[] }) {
       </div>
 
       {/* Navigation Arrows */}
-      {images.length > 1 && (
+      {validImages.length > 1 && (
         <>
           <button
             onClick={goToPrevious}
@@ -114,27 +128,30 @@ export default function ImageCarousel({ images }: { images: ImageItem[] }) {
       )}
 
       {/* Dots Indicator */}
-      {images.length > 1 && (
+      {validImages.length > 1 && (
         <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 flex gap-2">
-          {images.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => goToSlide(index)}
-              className={`h-2 rounded-full transition-all duration-300 ${
-                index === currentIndex
-                  ? "w-8 bg-white dark:bg-gray-100"
-                  : "w-2 bg-white/50 dark:bg-gray-100/50 hover:bg-white/75 dark:hover:bg-gray-100/75"
-              }`}
-              aria-label={`Go to slide ${index + 1}`}
-            />
-          ))}
+          {validImages.map((_, validIdx) => {
+            const originalIdx = validIndices[validIdx];
+            return (
+              <button
+                key={originalIdx}
+                onClick={() => goToSlide(validIdx)}
+                className={`h-2 rounded-full transition-all duration-300 ${
+                  originalIdx === currentIndex
+                    ? "w-8 bg-white dark:bg-gray-100"
+                    : "w-2 bg-white/50 dark:bg-gray-100/50 hover:bg-white/75 dark:hover:bg-gray-100/75"
+                }`}
+                aria-label={`Go to slide ${validIdx + 1}`}
+              />
+            );
+          })}
         </div>
       )}
 
       {/* Slide Counter */}
-      {images.length > 1 && (
+      {validImages.length > 1 && (
         <div className="absolute top-4 right-4 z-10 bg-black/50 backdrop-blur-sm text-white text-xs px-3 py-1.5 rounded-full">
-          {currentIndex + 1} / {images.length}
+          {currentValidIndex + 1} / {validImages.length}
         </div>
       )}
     </div>

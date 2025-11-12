@@ -12,23 +12,23 @@ export default function ImageGalleryItem({
   img,
   index,
   onClick,
+  onError,
 }: {
   img: ImageItem;
   index: number;
   onClick: () => void;
+  onError?: () => void;
 }) {
   const [imageError, setImageError] = useState(false);
   const imagePath = img.folder ? `/images/${img.folder}/${img.file}` : `/images/${img.file}`;
 
+  const handleError = () => {
+    setImageError(true);
+    onError?.();
+  };
+
   if (imageError) {
-    return (
-      <div
-        className="absolute inset-0 bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 flex items-center justify-center cursor-pointer"
-        onClick={onClick}
-      >
-        <span className="text-xs text-gray-500">Image not found</span>
-      </div>
-    );
+    return null; // Hide failed images completely
   }
 
   return (
@@ -41,7 +41,7 @@ export default function ImageGalleryItem({
         alt={`Gallery image ${index + 1}`}
         fill
         className="object-cover transition-transform duration-500 group-hover:scale-110"
-        onError={() => setImageError(true)}
+        onError={handleError}
         unoptimized
       />
       <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">

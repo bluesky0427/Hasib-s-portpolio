@@ -71,11 +71,24 @@ Modern portfolio focused on CMS (Shopify, WordPress) and full‑stack projects. 
 - Location hidden.
 - NDA items marked and anonymized.
 
-## Deploy (Vercel)
+## Deploy
+
+### Vercel
 1. Push this repo to GitHub.
 2. Import to Vercel, Framework Preset: Next.js.
 3. Build command: `next build`, Output: default.
 4. Deploy.
+
+### Render.com
+1. Push this repo to GitHub.
+2. Create a new **Web Service** on Render.
+3. Connect your GitHub repository.
+4. Configure:
+   - **Build Command**: `npm install && npm run build`
+   - **Start Command**: `npm start`
+   - **Environment**: Node (use the latest LTS version)
+5. The app will automatically bind to `0.0.0.0` and use the `PORT` environment variable provided by Render.
+6. Deploy.
 
 ## Troubleshooting
 

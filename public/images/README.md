@@ -32,110 +32,86 @@ public/images/
 │   ├── 1.png
 │   └── … up to 12.png
 │
-├── woocommerce-electronics-marketplace/
-│   ├── woo-electronics.png
-│   ├── woo-dashboard.png
-│   └── woo-lighthouse.png
-├── woocommerce-membership-media/
-│   ├── woo-membership.png
-│   ├── woo-course.png
-│   └── woo-members.png
-├── woocommerce-luxury-consignment/
-│   ├── woo-consignment.png
-│   ├── woo-seller-portal.png
-│   └── woo-review.png
-├── woocommerce-b2b-replenishment/
-│   ├── woo-replenishment.png
-│   ├── woo-forecast.png
-│   └── woo-dashboard.png
-├── woocommerce-travel-bookings/
-│   ├── woo-travel.png
-│   ├── woo-itinerary.png
-│   └── woo-map.png
+├── electronics-marketplace/
+│   ├── 1.png
+│   ├── 2.png
+│   └── … up to 12.png
+├── membership-media/
+│   ├── 1.png
+│   └── … up to 12.png
+├── luxury-consignment/
+│   ├── 1.png
+│   └── … up to 12.png
+├── b2b-replenishment/
+│   ├── 1.png
+│   └── … up to 12.png
+├── travel-bookings/
+│   ├── 1.png
+│   └── … up to 12.png
 │
-├── wordpress-headless-gatsby/
-│   ├── wp-headless.png
-│   ├── wp-blocks.png
-│   └── wp-story.png
-├── wordpress-education-hub/
-│   ├── wp-education.png
-│   ├── wp-search.png
-│   └── wp-dashboard.png
-├── wordpress-enterprise-intranet/
-│   ├── wp-intranet.png
-│   ├── wp-kb.png
-│   └── wp-dashboard.png
-├── wordpress-nonprofit-impact/
-│   ├── wp-nonprofit.png
-│   ├── wp-microsite.png
-│   └── wp-donation.png
-├── wordpress-hospitality-experiences/
-│   ├── wp-hospitality.png
-│   ├── wp-itinerary.png
-│   └── wp-concierge.png
+├── headless-publishing/
+│   ├── 1.png
+│   └── … up to 12.png
+├── education-hub/
+│   ├── 1.png
+│   └── … up to 12.png
+├── enterprise-intranet/
+│   ├── 1.png
+│   └── … up to 12.png
+├── nonprofit-microsite/
+│   ├── 1.png
+│   └── … up to 12.png
+├── hospitality-platform/
+│   ├── 1.png
+│   └── … up to 12.png
 │
-├── product-analytics-platform/
-│   ├── fullstack-analytics.png
-│   ├── fullstack-funnels.png
-│   └── fullstack-dashboard.png
-├── fullstack-marketplace/
-│   ├── fullstack-lending.png
-│   ├── fullstack-onboarding.png
-│   └── fullstack-portfolio.png
-├── fullstack-smart-manufacturing/
-│   ├── fullstack-manufacturing.png
-│   ├── fullstack-telemetry.png
-│   └── fullstack-maintenance.png
-├── fullstack-learning-platform/
-│   ├── fullstack-learning.png
-│   ├── fullstack-cohort.png
-│   └── fullstack-progress.png
-├── fullstack-logistics-orchestration/
-│   ├── fullstack-logistics.png
-│   ├── fullstack-map.png
-│   └── fullstack-incident.png
+├── product-analytics/
+│   ├── 1.png
+│   └── … up to 12.png
+├── marketplace-lending/
+│   ├── 1.png
+│   └── … up to 12.png
+├── smart-manufacturing/
+│   ├── 1.png
+│   └── … up to 12.png
+├── learning-platform/
+│   ├── 1.png
+│   └── … up to 12.png
+├── logistics-orchestration/
+│   ├── 1.png
+│   └── … up to 12.png
 │
-├── automation-zapier-airtable/
-│   ├── automation-ops.png
-│   ├── automation-dashboard.png
-│   └── automation-zaps.png
-├── automation-partner-onboarding/
-│   ├── automation-partner.png
-│   ├── automation-playbook.png
-│   └── automation-digest.png
-├── automation-finance-reconciliation/
-│   ├── automation-finance.png
-│   ├── automation-dashboard.png
-│   └── automation-approvals.png
-├── automation-field-services/
-│   ├── automation-dispatch.png
-│   ├── automation-scheduler.png
-│   └── automation-sms.png
-├── automation-ecommerce-marketing/
-│   ├── automation-marketing.png
-│   ├── automation-cohorts.png
-│   └── automation-journeys.png
+├── operations-control/
+│   ├── 1.png
+│   └── … up to 12.png
+├── partner-onboarding/
+│   ├── 1.png
+│   └── … up to 12.png
+├── finance-reconciliation/
+│   ├── 1.png
+│   └── … up to 12.png
+├── field-services/
+│   ├── 1.png
+│   └── … up to 12.png
+├── ecommerce-marketing/
+│   ├── 1.png
+│   └── … up to 12.png
 │
-├── healthcare-telemedicine-app/
-│   ├── health-telemedicine.png
-│   ├── health-consult.png
-│   └── health-intake.png
-├── healthcare-care-coordination/
-│   ├── health-coordination.png
-│   ├── health-dashboard.png
-│   └── health-messaging.png
-├── healthcare-research-portal/
-│   ├── health-research.png
-│   ├── health-eligibility.png
-│   └── health-schedule.png
-├── healthcare-remote-monitoring/
-│   ├── health-monitoring.png
-│   ├── health-clinician.png
-│   └── health-patient.png
-└── healthcare-lab-automation/
-    ├── health-lab.png
-    ├── health-intake.png
-    └── health-results.png
+├── telemedicine/
+│   ├── 1.png
+│   └── … up to 12.png
+├── care-coordination/
+│   ├── 1.png
+│   └── … up to 12.png
+├── research-portal/
+│   ├── 1.png
+│   └── … up to 12.png
+├── remote-monitoring/
+│   ├── 1.png
+│   └── … up to 12.png
+└── lab-automation/
+    ├── 1.png
+    └── … up to 12.png
 ```
 
 ## Image Requirements
@@ -145,28 +121,28 @@ public/images/
   - Shopify projects: 1920x1200px or 1600x1200px (4:3 or 16:10) for deeper canvas
   - Other galleries: 1920x1080px or 1600x900px
   - Portrait photo: 800x1000px or similar portrait orientation
-- **File naming**: Use the exact file names listed above (case-sensitive). Shopify folders expect sequential numbering (`1.png`, `2.png`, … `12.png`).
+- **File naming**: All projects use sequential numbering (`1.png`, `2.png`, … `12.png`). Use the exact file names (case-sensitive).
 
 ## Visual Modes & Suggested Image Types
 
 Each project now renders its media differently to showcase specific skills. Capture real screenshots or photos that reinforce the story for each mode.
 
-### Case Study (Ridleys, The Helm, Healthcare)
+### Case Study (The Helm, Luxury Consignment, Marketplace Lending, Telemedicine, Remote Monitoring)
 - `1.png`: flagship hero experience or end-to-end journey.
 - `2.png – 6.png`: annotated feature flows (personalization, bundling, service tooling).
 - `7.png – 12.png`: deep dives (dashboards, configuration screens, checkout innovations).
 
-### Process (Pet Valu, Willow Park Village, WordPress)
+### Process (Pet Valu, Willow Park Village, Membership Media, Education Hub, Nonprofit, Learning Platform, Care Coordination, Lab Automation)
 - `1.png`: overview of the entire execution layer.
 - `2.png – 5.png`: phase visuals (discovery, build, launch, optimization).
 - `6.png – 12.png`: internal tooling, collaboration assets, service scheduling.
 
-### Tech Stack (Ridleys, The Shoe Company, Full-stack builds)
+### Tech Stack (Ridleys, The Shoe Company, Electronics Marketplace, Travel Bookings, Headless Publishing, Hospitality, Smart Manufacturing, Logistics, Research Portal)
 - `1.png`: combined architecture view.
 - `2.png – 5.png`: front-end, middleware, and backend interfaces.
 - `6.png – 12.png`: developer tooling, monitoring, deployment, or integration surfaces.
 
-### DataViz (Sharpei, Automation)
+### DataViz (Sharpei, B2B Replenishment, Product Analytics, All Automation projects)
 - `1.png`: primary KPI dashboard.
 - `2.png – 6.png`: retention/utilization charts, lifecycle analytics, circular-economy insights.
 - `7.png – 12.png`: workflow builders, cohort explorers, automation logs.

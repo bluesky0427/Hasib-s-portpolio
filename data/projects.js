@@ -237,6 +237,7 @@ export const projects = [
     role: "Platform Engineer",
     timeline: "2023",
     industry: "Consumer Electronics",
+    visualMode: "techStack",
     tech: ["WordPress", "WooCommerce", "Redis", "Elasticsearch", "Nginx"],
     summary: "Built a high-performance electronics marketplace from scratch designed to handle flash sales and high-traffic events with sub-second response times.",
     goal: "Create a new electronics ecommerce platform with advanced search, performance optimization, and infrastructure ready for viral growth.",
@@ -251,10 +252,19 @@ export const projects = [
       "Developed server automation system for cache pre-warming and health checks before major campaigns."
     ],
     results: ["Cart abandonment reduced by 28%", "95th percentile page load 1.2s", "Support tickets reduced by 43%"],
-    coverImage: { file: "woo-electronics.png", folder: "woocommerce-electronics-marketplace" },
+    coverImage: { file: "1.png", folder: "electronics-marketplace" },
     gallery: [
-      { file: "woo-dashboard.png", folder: "woocommerce-electronics-marketplace" },
-      { file: "woo-lighthouse.png", folder: "woocommerce-electronics-marketplace" }
+      { file: "2.png", folder: "electronics-marketplace" },
+      { file: "3.png", folder: "electronics-marketplace" },
+      { file: "4.png", folder: "electronics-marketplace" },
+      { file: "5.png", folder: "electronics-marketplace" },
+      { file: "6.png", folder: "electronics-marketplace" },
+      { file: "7.png", folder: "electronics-marketplace" },
+      { file: "8.png", folder: "electronics-marketplace" },
+      { file: "9.png", folder: "electronics-marketplace" },
+      { file: "10.png", folder: "electronics-marketplace" },
+      { file: "11.png", folder: "electronics-marketplace" },
+      { file: "12.png", folder: "electronics-marketplace" }
     ]
   },
   {
@@ -264,6 +274,7 @@ export const projects = [
     role: "Lead Developer",
     timeline: "2022",
     industry: "Digital Publishing",
+    visualMode: "process",
     tech: ["WooCommerce", "MemberPress", "PHP", "Stripe", "Next.js"],
     summary: "Built a complete membership platform from scratch with gated content, online courses, and live event management.",
     goal: "Create a new membership platform for a media company with tiered access, course delivery, and seamless payment processing.",
@@ -278,10 +289,19 @@ export const projects = [
       "Developed webhook integration between MemberPress and CRM system for automated customer data synchronization."
     ],
     results: ["Platform launched in 7 weeks", "+34% recurring revenue growth", "Support ticket load reduced by 18%"],
-    coverImage: { file: "woo-membership.png", folder: "woocommerce-membership-media" },
+    coverImage: { file: "1.png", folder: "membership-media" },
     gallery: [
-      { file: "woo-course.png", folder: "woocommerce-membership-media" },
-      { file: "woo-members.png", folder: "woocommerce-membership-media" }
+      { file: "2.png", folder: "membership-media" },
+      { file: "3.png", folder: "membership-media" },
+      { file: "4.png", folder: "membership-media" },
+      { file: "5.png", folder: "membership-media" },
+      { file: "6.png", folder: "membership-media" },
+      { file: "7.png", folder: "membership-media" },
+      { file: "8.png", folder: "membership-media" },
+      { file: "9.png", folder: "membership-media" },
+      { file: "10.png", folder: "membership-media" },
+      { file: "11.png", folder: "membership-media" },
+      { file: "12.png", folder: "membership-media" }
     ]
   },
   {
@@ -291,6 +311,7 @@ export const projects = [
     role: "Full Stack Engineer",
     timeline: "2023",
     industry: "Luxury Retail",
+    visualMode: "caseStudy",
     tech: ["WooCommerce", "Laravel", "Elastic", "AWS SQS"],
     summary: "Built a complete luxury consignment marketplace from the ground up with seller onboarding, inventory moderation, and dynamic pricing.",
     goal: "Create a new marketplace platform where curated sellers can list luxury items with automated quality control and pricing optimization.",
@@ -305,10 +326,19 @@ export const projects = [
       "Developed image similarity detection algorithm to automatically flag potential fraudulent or duplicate listings."
     ],
     results: ["5,000+ listings in first quarter", "Listing approval SLA reduced to 6 hours", "+21% gross merchandise value"],
-    coverImage: { file: "woo-consignment.png", folder: "woocommerce-luxury-consignment" },
+    coverImage: { file: "1.png", folder: "luxury-consignment" },
     gallery: [
-      { file: "woo-seller-portal.png", folder: "woocommerce-luxury-consignment" },
-      { file: "woo-review.png", folder: "woocommerce-luxury-consignment" }
+      { file: "2.png", folder: "luxury-consignment" },
+      { file: "3.png", folder: "luxury-consignment" },
+      { file: "4.png", folder: "luxury-consignment" },
+      { file: "5.png", folder: "luxury-consignment" },
+      { file: "6.png", folder: "luxury-consignment" },
+      { file: "7.png", folder: "luxury-consignment" },
+      { file: "8.png", folder: "luxury-consignment" },
+      { file: "9.png", folder: "luxury-consignment" },
+      { file: "10.png", folder: "luxury-consignment" },
+      { file: "11.png", folder: "luxury-consignment" },
+      { file: "12.png", folder: "luxury-consignment" }
     ]
   },
   {
@@ -318,6 +348,7 @@ export const projects = [
     role: "Tech Lead",
     timeline: "2024",
     industry: "CPG Wholesale",
+    visualMode: "dataViz",
     tech: ["WooCommerce", "Vue", "MySQL", "Redis", "Docker"],
     summary: "Built a complete wholesale replenishment platform from scratch with predictive ordering, real-time inventory sync, and automated fulfillment.",
     goal: "Create a new B2B platform that automates wholesale ordering with intelligent forecasting and eliminates manual spreadsheet processes.",
@@ -332,10 +363,19 @@ export const projects = [
       "Implemented containerized deployment architecture with blue/green deployment strategy for zero-downtime updates."
     ],
     results: ["Order accuracy improved by 32%", "Manual data entry time reduced by 70%", "Stockouts reduced by 18%"],
-    coverImage: { file: "woo-replenishment.png", folder: "woocommerce-b2b-replenishment" },
+    coverImage: { file: "1.png", folder: "b2b-replenishment" },
     gallery: [
-      { file: "woo-forecast.png", folder: "woocommerce-b2b-replenishment" },
-      { file: "woo-dashboard.png", folder: "woocommerce-b2b-replenishment" }
+      { file: "2.png", folder: "b2b-replenishment" },
+      { file: "3.png", folder: "b2b-replenishment" },
+      { file: "4.png", folder: "b2b-replenishment" },
+      { file: "5.png", folder: "b2b-replenishment" },
+      { file: "6.png", folder: "b2b-replenishment" },
+      { file: "7.png", folder: "b2b-replenishment" },
+      { file: "8.png", folder: "b2b-replenishment" },
+      { file: "9.png", folder: "b2b-replenishment" },
+      { file: "10.png", folder: "b2b-replenishment" },
+      { file: "11.png", folder: "b2b-replenishment" },
+      { file: "12.png", folder: "b2b-replenishment" }
     ]
   },
   {
@@ -345,6 +385,7 @@ export const projects = [
     role: "Solutions Engineer",
     timeline: "2022",
     industry: "Travel & Leisure",
+    visualMode: "techStack",
     tech: ["WooCommerce", "BookingWP", "Mapbox", "Lambda", "Stripe"],
     summary: "Built a complete travel experience marketplace from scratch with multi-vendor booking, itinerary planning, and automated concierge services.",
     goal: "Create a new travel platform that aggregates experiences from multiple tour operators with dynamic availability and personalized itinerary recommendations.",
@@ -359,10 +400,19 @@ export const projects = [
       "Developed Stripe Connect marketplace integration for automated split payouts between tour operators and platform."
     ],
     results: ["Launched during peak season with zero downtime", "+27% upsell revenue", "Average booking rating 4.8/5"],
-    coverImage: { file: "woo-travel.png", folder: "woocommerce-travel-bookings" },
+    coverImage: { file: "1.png", folder: "travel-bookings" },
     gallery: [
-      { file: "woo-itinerary.png", folder: "woocommerce-travel-bookings" },
-      { file: "woo-map.png", folder: "woocommerce-travel-bookings" }
+      { file: "2.png", folder: "travel-bookings" },
+      { file: "3.png", folder: "travel-bookings" },
+      { file: "4.png", folder: "travel-bookings" },
+      { file: "5.png", folder: "travel-bookings" },
+      { file: "6.png", folder: "travel-bookings" },
+      { file: "7.png", folder: "travel-bookings" },
+      { file: "8.png", folder: "travel-bookings" },
+      { file: "9.png", folder: "travel-bookings" },
+      { file: "10.png", folder: "travel-bookings" },
+      { file: "11.png", folder: "travel-bookings" },
+      { file: "12.png", folder: "travel-bookings" }
     ]
   },
 
@@ -389,10 +439,20 @@ export const projects = [
       "Developed automated accessibility linting pipeline integrated into editorial workflow for compliance."
     ],
     results: ["Time to first byte reduced by 60%", "Cumulative Layout Shift < 0.05", "Editorial publishing velocity +40%"],
-    coverImage: { file: "wp-headless.png", folder: "wordpress-headless-gatsby" },
+    visualMode: "techStack",
+    coverImage: { file: "1.png", folder: "headless-publishing" },
     gallery: [
-      { file: "wp-blocks.png", folder: "wordpress-headless-gatsby" },
-      { file: "wp-story.png", folder: "wordpress-headless-gatsby" }
+      { file: "2.png", folder: "headless-publishing" },
+      { file: "3.png", folder: "headless-publishing" },
+      { file: "4.png", folder: "headless-publishing" },
+      { file: "5.png", folder: "headless-publishing" },
+      { file: "6.png", folder: "headless-publishing" },
+      { file: "7.png", folder: "headless-publishing" },
+      { file: "8.png", folder: "headless-publishing" },
+      { file: "9.png", folder: "headless-publishing" },
+      { file: "10.png", folder: "headless-publishing" },
+      { file: "11.png", folder: "headless-publishing" },
+      { file: "12.png", folder: "headless-publishing" }
     ]
   },
   {
@@ -402,6 +462,7 @@ export const projects = [
     role: "Technical Lead",
     timeline: "2023",
     industry: "Education",
+    visualMode: "process",
     tech: ["WordPress", "ACF Pro", "ElasticPress", "Tailwind", "Sage Theme"],
     summary: "Built a complete curriculum management platform from scratch for educators with advanced search, resource discovery, and personalized content delivery.",
     goal: "Create a new educational resource platform that helps state-wide educators discover, filter, and access lesson plans with standards alignment.",
@@ -416,10 +477,19 @@ export const projects = [
       "Developed bulk import tools with data validation and error handling for district-wide curriculum uploads."
     ],
     results: ["Average resource discovery time reduced by 52%", "Teacher satisfaction rating 4.6/5", "Adopted across 132 school districts"],
-    coverImage: { file: "wp-education.png", folder: "wordpress-education-hub" },
+    coverImage: { file: "1.png", folder: "education-hub" },
     gallery: [
-      { file: "wp-search.png", folder: "wordpress-education-hub" },
-      { file: "wp-dashboard.png", folder: "wordpress-education-hub" }
+      { file: "2.png", folder: "education-hub" },
+      { file: "3.png", folder: "education-hub" },
+      { file: "4.png", folder: "education-hub" },
+      { file: "5.png", folder: "education-hub" },
+      { file: "6.png", folder: "education-hub" },
+      { file: "7.png", folder: "education-hub" },
+      { file: "8.png", folder: "education-hub" },
+      { file: "9.png", folder: "education-hub" },
+      { file: "10.png", folder: "education-hub" },
+      { file: "11.png", folder: "education-hub" },
+      { file: "12.png", folder: "education-hub" }
     ]
   },
   {
@@ -429,6 +499,7 @@ export const projects = [
     role: "Solutions Architect",
     timeline: "2024",
     industry: "Enterprise SaaS",
+    visualMode: "caseStudy",
     tech: ["WordPress", "Next.js", "Azure AD", "GraphQL", "Redis"],
     summary: "Built a complete enterprise intranet platform from scratch with personalized dashboards, knowledge base, and integrated analytics.",
     goal: "Create a new internal communication and knowledge management platform with Azure AD SSO integration and personalized employee experiences.",
@@ -443,10 +514,19 @@ export const projects = [
       "Built automated governance reporting system for content lifecycle management and compliance tracking."
     ],
     results: ["Employee engagement increased by 36%", "Knowledge base search success rate 91%", "Manual report creation reduced by 80%"],
-    coverImage: { file: "wp-intranet.png", folder: "wordpress-enterprise-intranet" },
+    coverImage: { file: "1.png", folder: "enterprise-intranet" },
     gallery: [
-      { file: "wp-kb.png", folder: "wordpress-enterprise-intranet" },
-      { file: "wp-dashboard.png", folder: "wordpress-enterprise-intranet" }
+      { file: "2.png", folder: "enterprise-intranet" },
+      { file: "3.png", folder: "enterprise-intranet" },
+      { file: "4.png", folder: "enterprise-intranet" },
+      { file: "5.png", folder: "enterprise-intranet" },
+      { file: "6.png", folder: "enterprise-intranet" },
+      { file: "7.png", folder: "enterprise-intranet" },
+      { file: "8.png", folder: "enterprise-intranet" },
+      { file: "9.png", folder: "enterprise-intranet" },
+      { file: "10.png", folder: "enterprise-intranet" },
+      { file: "11.png", folder: "enterprise-intranet" },
+      { file: "12.png", folder: "enterprise-intranet" }
     ]
   },
   {
@@ -456,6 +536,7 @@ export const projects = [
     role: "Lead Engineer",
     timeline: "2023",
     industry: "Nonprofit",
+    visualMode: "process",
     tech: ["WordPress Multisite", "Vue", "REST API", "Stripe", "Storybook"],
     summary: "Built a complete microsite generation platform from scratch that enables nonprofit program leads to launch fundraising campaign sites in hours.",
     goal: "Create a new platform for global fundraising campaigns with reusable templates, localization support, and integrated donation processing.",
@@ -470,10 +551,19 @@ export const projects = [
       "Developed automated translation workflow using Translation API with human review handoff for quality assurance."
     ],
     results: ["25 microsites launched in first quarter", "+37% donor conversion rate", "Localization time reduced by 70%"],
-    coverImage: { file: "wp-nonprofit.png", folder: "wordpress-nonprofit-impact" },
+    coverImage: { file: "1.png", folder: "nonprofit-microsite" },
     gallery: [
-      { file: "wp-microsite.png", folder: "wordpress-nonprofit-impact" },
-      { file: "wp-donation.png", folder: "wordpress-nonprofit-impact" }
+      { file: "2.png", folder: "nonprofit-microsite" },
+      { file: "3.png", folder: "nonprofit-microsite" },
+      { file: "4.png", folder: "nonprofit-microsite" },
+      { file: "5.png", folder: "nonprofit-microsite" },
+      { file: "6.png", folder: "nonprofit-microsite" },
+      { file: "7.png", folder: "nonprofit-microsite" },
+      { file: "8.png", folder: "nonprofit-microsite" },
+      { file: "9.png", folder: "nonprofit-microsite" },
+      { file: "10.png", folder: "nonprofit-microsite" },
+      { file: "11.png", folder: "nonprofit-microsite" },
+      { file: "12.png", folder: "nonprofit-microsite" }
     ]
   },
   {
@@ -483,6 +573,7 @@ export const projects = [
     role: "Full Stack Developer",
     timeline: "2022",
     industry: "Hospitality",
+    visualMode: "techStack",
     tech: ["WordPress", "WooCommerce", "Vue", "Mapbox", "Twilio"],
     summary: "Built a complete guest experience platform from scratch with itinerary planning, real-time concierge communication, and intelligent upsell automation.",
     goal: "Create a new platform for a luxury hotel chain to offer curated on-site and off-site experiences with seamless booking and concierge services.",
@@ -497,10 +588,19 @@ export const projects = [
       "Developed event-driven notification system that synchronizes operations staff across departments in real-time."
     ],
     results: ["Guest spend increased by 22%", "Average concierge response time 3 minutes", "Customer satisfaction rating 4.9/5"],
-    coverImage: { file: "wp-hospitality.png", folder: "wordpress-hospitality-experiences" },
+    coverImage: { file: "1.png", folder: "hospitality-platform" },
     gallery: [
-      { file: "wp-itinerary.png", folder: "wordpress-hospitality-experiences" },
-      { file: "wp-concierge.png", folder: "wordpress-hospitality-experiences" }
+      { file: "2.png", folder: "hospitality-platform" },
+      { file: "3.png", folder: "hospitality-platform" },
+      { file: "4.png", folder: "hospitality-platform" },
+      { file: "5.png", folder: "hospitality-platform" },
+      { file: "6.png", folder: "hospitality-platform" },
+      { file: "7.png", folder: "hospitality-platform" },
+      { file: "8.png", folder: "hospitality-platform" },
+      { file: "9.png", folder: "hospitality-platform" },
+      { file: "10.png", folder: "hospitality-platform" },
+      { file: "11.png", folder: "hospitality-platform" },
+      { file: "12.png", folder: "hospitality-platform" }
     ]
   },
 
@@ -512,6 +612,7 @@ export const projects = [
     role: "Lead Engineer",
     timeline: "2024",
     industry: "SaaS Analytics",
+    visualMode: "dataViz",
     tech: ["Next.js", "NestJS", "PostgreSQL", "tRPC", "ClickHouse"],
     summary: "Built a complete full-stack analytics platform from scratch with real-time funnels, user journey tracking, and embeddable dashboards.",
     goal: "Create a new product analytics platform that gives product managers granular visibility into user behavior with sub-second query times.",
@@ -526,10 +627,19 @@ export const projects = [
       "Streaming data export via WebSockets for live monitoring."
     ],
     results: ["Query latency < 300ms", "Adopted by 14 product teams in pilot", "Feature shipping speed +18%"],
-    coverImage: { file: "fullstack-analytics.png", folder: "product-analytics-platform" },
+    coverImage: { file: "1.png", folder: "product-analytics" },
     gallery: [
-      { file: "fullstack-funnels.png", folder: "product-analytics-platform" },
-      { file: "fullstack-dashboard.png", folder: "product-analytics-platform" }
+      { file: "2.png", folder: "product-analytics" },
+      { file: "3.png", folder: "product-analytics" },
+      { file: "4.png", folder: "product-analytics" },
+      { file: "5.png", folder: "product-analytics" },
+      { file: "6.png", folder: "product-analytics" },
+      { file: "7.png", folder: "product-analytics" },
+      { file: "8.png", folder: "product-analytics" },
+      { file: "9.png", folder: "product-analytics" },
+      { file: "10.png", folder: "product-analytics" },
+      { file: "11.png", folder: "product-analytics" },
+      { file: "12.png", folder: "product-analytics" }
     ]
   },
   {
@@ -553,10 +663,20 @@ export const projects = [
       "Prisma schema optimized for audit-ready financial records."
     ],
     results: ["Loan approval time −48%", "$18M processed in first 6 months", "Investor retention 92%"],
-    coverImage: { file: "fullstack-lending.png", folder: "fullstack-marketplace" },
+    visualMode: "caseStudy",
+    coverImage: { file: "1.png", folder: "marketplace-lending" },
     gallery: [
-      { file: "fullstack-onboarding.png", folder: "fullstack-marketplace" },
-      { file: "fullstack-portfolio.png", folder: "fullstack-marketplace" }
+      { file: "2.png", folder: "marketplace-lending" },
+      { file: "3.png", folder: "marketplace-lending" },
+      { file: "4.png", folder: "marketplace-lending" },
+      { file: "5.png", folder: "marketplace-lending" },
+      { file: "6.png", folder: "marketplace-lending" },
+      { file: "7.png", folder: "marketplace-lending" },
+      { file: "8.png", folder: "marketplace-lending" },
+      { file: "9.png", folder: "marketplace-lending" },
+      { file: "10.png", folder: "marketplace-lending" },
+      { file: "11.png", folder: "marketplace-lending" },
+      { file: "12.png", folder: "marketplace-lending" }
     ]
   },
   {
@@ -566,6 +686,7 @@ export const projects = [
     role: "Solution Architect",
     timeline: "2022",
     industry: "Manufacturing",
+    visualMode: "techStack",
     tech: ["Next.js", "Express", "TimescaleDB", "MQTT", "Tailwind"],
     summary: "Built a complete smart manufacturing platform from scratch with factory-floor dashboards, machine telemetry visualization, and predictive maintenance alerts.",
     goal: "Create a new IoT platform that provides plant operators with real-time insights into downtime, throughput, and anomaly detection.",
@@ -580,10 +701,19 @@ export const projects = [
       "Custom charting components tuned for industrial KPIs."
     ],
     results: ["Unplanned downtime −17%", "Alert acknowledgment within 4 minutes", "ROI realized in 5 months"],
-    coverImage: { file: "fullstack-manufacturing.png", folder: "fullstack-smart-manufacturing" },
+    coverImage: { file: "1.png", folder: "smart-manufacturing" },
     gallery: [
-      { file: "fullstack-telemetry.png", folder: "fullstack-smart-manufacturing" },
-      { file: "fullstack-maintenance.png", folder: "fullstack-smart-manufacturing" }
+      { file: "2.png", folder: "smart-manufacturing" },
+      { file: "3.png", folder: "smart-manufacturing" },
+      { file: "4.png", folder: "smart-manufacturing" },
+      { file: "5.png", folder: "smart-manufacturing" },
+      { file: "6.png", folder: "smart-manufacturing" },
+      { file: "7.png", folder: "smart-manufacturing" },
+      { file: "8.png", folder: "smart-manufacturing" },
+      { file: "9.png", folder: "smart-manufacturing" },
+      { file: "10.png", folder: "smart-manufacturing" },
+      { file: "11.png", folder: "smart-manufacturing" },
+      { file: "12.png", folder: "smart-manufacturing" }
     ]
   },
   {
@@ -593,6 +723,7 @@ export const projects = [
     role: "Principal Engineer",
     timeline: "2024",
     industry: "EdTech",
+    visualMode: "process",
     tech: ["Next.js", "Supabase", "Edge Functions", "Drizzle ORM", "Stripe"],
     summary: "Built a complete learning experience platform from scratch with cohort-based courses, adaptive content delivery, live sessions, and progress analytics.",
     goal: "Create a new EdTech platform that delivers personalized learning paths and keeps cohorts engaged through interactive live sessions.",
@@ -607,10 +738,19 @@ export const projects = [
       "Stripe metered billing based on active seat usage."
     ],
     results: ["Completion rate 78%", "Churn down to 5%", "Average session rating 4.8/5"],
-    coverImage: { file: "fullstack-learning.png", folder: "fullstack-learning-platform" },
+    coverImage: { file: "1.png", folder: "learning-platform" },
     gallery: [
-      { file: "fullstack-cohort.png", folder: "fullstack-learning-platform" },
-      { file: "fullstack-progress.png", folder: "fullstack-learning-platform" }
+      { file: "2.png", folder: "learning-platform" },
+      { file: "3.png", folder: "learning-platform" },
+      { file: "4.png", folder: "learning-platform" },
+      { file: "5.png", folder: "learning-platform" },
+      { file: "6.png", folder: "learning-platform" },
+      { file: "7.png", folder: "learning-platform" },
+      { file: "8.png", folder: "learning-platform" },
+      { file: "9.png", folder: "learning-platform" },
+      { file: "10.png", folder: "learning-platform" },
+      { file: "11.png", folder: "learning-platform" },
+      { file: "12.png", folder: "learning-platform" }
     ]
   },
   {
@@ -620,6 +760,7 @@ export const projects = [
     role: "Staff Engineer",
     timeline: "2023",
     industry: "Logistics",
+    visualMode: "techStack",
     tech: ["Next.js", "Go", "gRPC", "MongoDB", "Kafka"],
     summary: "Built a complete logistics orchestration platform from scratch with route optimization, real-time anomaly detection, and partner API integrations.",
     goal: "Create a new logistics platform that provides dispatchers with a single control center for shipments, carriers, and incident management.",
@@ -634,10 +775,19 @@ export const projects = [
       "Role-based analytics for operations, finance, and partners."
     ],
     results: ["On-time delivery +16%", "Incident resolution time −38%", "Carrier satisfaction 9.1/10"],
-    coverImage: { file: "fullstack-logistics.png", folder: "fullstack-logistics-orchestration" },
+    coverImage: { file: "1.png", folder: "logistics-orchestration" },
     gallery: [
-      { file: "fullstack-map.png", folder: "fullstack-logistics-orchestration" },
-      { file: "fullstack-incident.png", folder: "fullstack-logistics-orchestration" }
+      { file: "2.png", folder: "logistics-orchestration" },
+      { file: "3.png", folder: "logistics-orchestration" },
+      { file: "4.png", folder: "logistics-orchestration" },
+      { file: "5.png", folder: "logistics-orchestration" },
+      { file: "6.png", folder: "logistics-orchestration" },
+      { file: "7.png", folder: "logistics-orchestration" },
+      { file: "8.png", folder: "logistics-orchestration" },
+      { file: "9.png", folder: "logistics-orchestration" },
+      { file: "10.png", folder: "logistics-orchestration" },
+      { file: "11.png", folder: "logistics-orchestration" },
+      { file: "12.png", folder: "logistics-orchestration" }
     ]
   },
 
@@ -663,10 +813,20 @@ export const projects = [
       "Data warehouse sync into Google Looker Studio for exec dashboards."
     ],
     results: ["12 hrs/week saved for ops team", "Refund processing time −45%", "Marketing attribution clarity +33%"],
-    coverImage: { file: "automation-ops.png", folder: "automation-zapier-airtable" },
+    visualMode: "dataViz",
+    coverImage: { file: "1.png", folder: "operations-control" },
     gallery: [
-      { file: "automation-dashboard.png", folder: "automation-zapier-airtable" },
-      { file: "automation-zaps.png", folder: "automation-zapier-airtable" }
+      { file: "2.png", folder: "operations-control" },
+      { file: "3.png", folder: "operations-control" },
+      { file: "4.png", folder: "operations-control" },
+      { file: "5.png", folder: "operations-control" },
+      { file: "6.png", folder: "operations-control" },
+      { file: "7.png", folder: "operations-control" },
+      { file: "8.png", folder: "operations-control" },
+      { file: "9.png", folder: "operations-control" },
+      { file: "10.png", folder: "operations-control" },
+      { file: "11.png", folder: "operations-control" },
+      { file: "12.png", folder: "operations-control" }
     ]
   },
   {
@@ -676,6 +836,7 @@ export const projects = [
     role: "Solution Architect",
     timeline: "2023",
     industry: "SaaS Partnerships",
+    visualMode: "dataViz",
     tech: ["Workato", "Salesforce", "Notion API", "DocuSign", "Segment"],
     summary: "Built a complete partner onboarding automation platform from scratch spanning contract management, enablement workflows, and analytics setup.",
     goal: "Create a new automation platform that reduces friction for onboarding new partners and gives partner managers full visibility into the process.",
@@ -690,10 +851,19 @@ export const projects = [
       "Partner health scoring model aggregated into weekly digest."
     ],
     results: ["Onboarding time −55%", "Partner activation +24%", "Zero manual touch for standard tier"],
-    coverImage: { file: "automation-partner.png", folder: "automation-partner-onboarding" },
+    coverImage: { file: "1.png", folder: "partner-onboarding" },
     gallery: [
-      { file: "automation-playbook.png", folder: "automation-partner-onboarding" },
-      { file: "automation-digest.png", folder: "automation-partner-onboarding" }
+      { file: "2.png", folder: "partner-onboarding" },
+      { file: "3.png", folder: "partner-onboarding" },
+      { file: "4.png", folder: "partner-onboarding" },
+      { file: "5.png", folder: "partner-onboarding" },
+      { file: "6.png", folder: "partner-onboarding" },
+      { file: "7.png", folder: "partner-onboarding" },
+      { file: "8.png", folder: "partner-onboarding" },
+      { file: "9.png", folder: "partner-onboarding" },
+      { file: "10.png", folder: "partner-onboarding" },
+      { file: "11.png", folder: "partner-onboarding" },
+      { file: "12.png", folder: "partner-onboarding" }
     ]
   },
   {
@@ -703,6 +873,7 @@ export const projects = [
     role: "Automation Engineer",
     timeline: "2022",
     industry: "Finance",
+    visualMode: "dataViz",
     tech: ["Azure Functions", "Power Automate", "SQL Server", "Plaid", "Power BI"],
     summary: "Built a complete finance reconciliation automation platform from scratch that digitizes monthly reconciliation by matching banking feeds, invoices, and approvals.",
     goal: "Create a new finance automation platform that eliminates spreadsheet-based reconciliation for a finance team operating across multiple regions.",
@@ -717,10 +888,19 @@ export const projects = [
       "Automated discrepancy assignment to departmental owners."
     ],
     results: ["Close cycle time −41%", "Manual errors nearly eliminated", "Audit prep hours −60%"],
-    coverImage: { file: "automation-finance.png", folder: "automation-finance-reconciliation" },
+    coverImage: { file: "1.png", folder: "finance-reconciliation" },
     gallery: [
-      { file: "automation-dashboard.png", folder: "automation-finance-reconciliation" },
-      { file: "automation-approvals.png", folder: "automation-finance-reconciliation" }
+      { file: "2.png", folder: "finance-reconciliation" },
+      { file: "3.png", folder: "finance-reconciliation" },
+      { file: "4.png", folder: "finance-reconciliation" },
+      { file: "5.png", folder: "finance-reconciliation" },
+      { file: "6.png", folder: "finance-reconciliation" },
+      { file: "7.png", folder: "finance-reconciliation" },
+      { file: "8.png", folder: "finance-reconciliation" },
+      { file: "9.png", folder: "finance-reconciliation" },
+      { file: "10.png", folder: "finance-reconciliation" },
+      { file: "11.png", folder: "finance-reconciliation" },
+      { file: "12.png", folder: "finance-reconciliation" }
     ]
   },
   {
@@ -730,6 +910,7 @@ export const projects = [
     role: "Automation Lead",
     timeline: "2023",
     industry: "Field Services",
+    visualMode: "dataViz",
     tech: ["Make", "ServiceNow", "Twilio", "Google Calendar", "Firebase"],
     summary: "Built a complete field services automation platform from scratch with dispatch workflows, technician scheduling, and customer notification systems.",
     goal: "Create a new automation platform that reduces missed appointments and improves dispatch efficiency for a national service brand.",
@@ -744,10 +925,19 @@ export const projects = [
       "Firebase backend for real-time technician check-ins."
     ],
     results: ["Missed appointments −47%", "Technician utilization +21%", "CSAT 4.7/5"],
-    coverImage: { file: "automation-dispatch.png", folder: "automation-field-services" },
+    coverImage: { file: "1.png", folder: "field-services" },
     gallery: [
-      { file: "automation-scheduler.png", folder: "automation-field-services" },
-      { file: "automation-sms.png", folder: "automation-field-services" }
+      { file: "2.png", folder: "field-services" },
+      { file: "3.png", folder: "field-services" },
+      { file: "4.png", folder: "field-services" },
+      { file: "5.png", folder: "field-services" },
+      { file: "6.png", folder: "field-services" },
+      { file: "7.png", folder: "field-services" },
+      { file: "8.png", folder: "field-services" },
+      { file: "9.png", folder: "field-services" },
+      { file: "10.png", folder: "field-services" },
+      { file: "11.png", folder: "field-services" },
+      { file: "12.png", folder: "field-services" }
     ]
   },
   {
@@ -757,6 +947,7 @@ export const projects = [
     role: "Automation Engineer",
     timeline: "2024",
     industry: "Ecommerce",
+    visualMode: "dataViz",
     tech: ["Segment", "Braze", "BigQuery", "Looker", "Cloud Functions"],
     summary: "Built a complete marketing automation platform from scratch that syncs ecommerce events to orchestrated customer journeys across multiple channels.",
     goal: "Create a new marketing automation platform that unifies campaign personalization and measurement for growth and retention teams.",
@@ -771,10 +962,19 @@ export const projects = [
       "Automated segment-sync between Braze, Meta, and Google Ads."
     ],
     results: ["Repeat purchase rate +14%", "Retention +9%", "Campaign build time −50%"],
-    coverImage: { file: "automation-marketing.png", folder: "automation-ecommerce-marketing" },
+    coverImage: { file: "1.png", folder: "ecommerce-marketing" },
     gallery: [
-      { file: "automation-cohorts.png", folder: "automation-ecommerce-marketing" },
-      { file: "automation-journeys.png", folder: "automation-ecommerce-marketing" }
+      { file: "2.png", folder: "ecommerce-marketing" },
+      { file: "3.png", folder: "ecommerce-marketing" },
+      { file: "4.png", folder: "ecommerce-marketing" },
+      { file: "5.png", folder: "ecommerce-marketing" },
+      { file: "6.png", folder: "ecommerce-marketing" },
+      { file: "7.png", folder: "ecommerce-marketing" },
+      { file: "8.png", folder: "ecommerce-marketing" },
+      { file: "9.png", folder: "ecommerce-marketing" },
+      { file: "10.png", folder: "ecommerce-marketing" },
+      { file: "11.png", folder: "ecommerce-marketing" },
+      { file: "12.png", folder: "ecommerce-marketing" }
     ]
   },
 
@@ -800,10 +1000,20 @@ export const projects = [
       "Offline-ready clinic dashboard for rural locations."
     ],
     results: ["Wait times −40%", "Session stability 97%", "Provider satisfaction 4.8/5"],
-    coverImage: { file: "health-telemedicine.png", folder: "healthcare-telemedicine-app" },
+    visualMode: "caseStudy",
+    coverImage: { file: "1.png", folder: "telemedicine" },
     gallery: [
-      { file: "health-consult.png", folder: "healthcare-telemedicine-app" },
-      { file: "health-intake.png", folder: "healthcare-telemedicine-app" }
+      { file: "2.png", folder: "telemedicine" },
+      { file: "3.png", folder: "telemedicine" },
+      { file: "4.png", folder: "telemedicine" },
+      { file: "5.png", folder: "telemedicine" },
+      { file: "6.png", folder: "telemedicine" },
+      { file: "7.png", folder: "telemedicine" },
+      { file: "8.png", folder: "telemedicine" },
+      { file: "9.png", folder: "telemedicine" },
+      { file: "10.png", folder: "telemedicine" },
+      { file: "11.png", folder: "telemedicine" },
+      { file: "12.png", folder: "telemedicine" }
     ]
   },
   {
@@ -813,6 +1023,7 @@ export const projects = [
     role: "Product Engineer",
     timeline: "2022",
     industry: "Healthcare Operations",
+    visualMode: "process",
     tech: ["React", "Node", "Hasura", "GraphQL", "Twilio"],
     summary: "Built a complete care coordination platform from scratch that unifies care teams with shared care plans, escalation workflows, and secure messaging.",
     goal: "Create a new healthcare platform that reduces handoff friction between providers, nurses, and support staff for chronic care programs.",
@@ -827,10 +1038,19 @@ export const projects = [
       "Voice/video escalation via Twilio with consent capture."
     ],
     results: ["Care plan adherence +18%", "Escalation response time −34%", "Team satisfaction 4.7/5"],
-    coverImage: { file: "health-coordination.png", folder: "healthcare-care-coordination" },
+    coverImage: { file: "1.png", folder: "care-coordination" },
     gallery: [
-      { file: "health-dashboard.png", folder: "healthcare-care-coordination" },
-      { file: "health-messaging.png", folder: "healthcare-care-coordination" }
+      { file: "2.png", folder: "care-coordination" },
+      { file: "3.png", folder: "care-coordination" },
+      { file: "4.png", folder: "care-coordination" },
+      { file: "5.png", folder: "care-coordination" },
+      { file: "6.png", folder: "care-coordination" },
+      { file: "7.png", folder: "care-coordination" },
+      { file: "8.png", folder: "care-coordination" },
+      { file: "9.png", folder: "care-coordination" },
+      { file: "10.png", folder: "care-coordination" },
+      { file: "11.png", folder: "care-coordination" },
+      { file: "12.png", folder: "care-coordination" }
     ]
   },
   {
@@ -840,6 +1060,7 @@ export const projects = [
     role: "Technical Lead",
     timeline: "2023",
     industry: "Clinical Research",
+    visualMode: "techStack",
     tech: ["Next.js", "Python", "FastAPI", "Neo4j", "AWS"],
     summary: "Built a complete clinical research platform from scratch with participant portal, eligibility matching, scheduling, and data capture systems.",
     goal: "Create a new research platform that matches participants to clinical trials faster while maintaining strict data governance and compliance.",
@@ -854,10 +1075,19 @@ export const projects = [
       "Serverless ingestion of device data for remote monitoring."
     ],
     results: ["Study enrollment time −33%", "Participant retention +21%", "Protocol deviations reduced 12%"],
-    coverImage: { file: "health-research.png", folder: "healthcare-research-portal" },
+    coverImage: { file: "1.png", folder: "research-portal" },
     gallery: [
-      { file: "health-eligibility.png", folder: "healthcare-research-portal" },
-      { file: "health-schedule.png", folder: "healthcare-research-portal" }
+      { file: "2.png", folder: "research-portal" },
+      { file: "3.png", folder: "research-portal" },
+      { file: "4.png", folder: "research-portal" },
+      { file: "5.png", folder: "research-portal" },
+      { file: "6.png", folder: "research-portal" },
+      { file: "7.png", folder: "research-portal" },
+      { file: "8.png", folder: "research-portal" },
+      { file: "9.png", folder: "research-portal" },
+      { file: "10.png", folder: "research-portal" },
+      { file: "11.png", folder: "research-portal" },
+      { file: "12.png", folder: "research-portal" }
     ]
   },
   {
@@ -867,6 +1097,7 @@ export const projects = [
     role: "Senior Engineer",
     timeline: "2024",
     industry: "Healthcare",
+    visualMode: "caseStudy",
     tech: ["Next.js", "NestJS", "AWS IoT Core", "DynamoDB", "Cognito"],
     summary: "Built a complete remote patient monitoring platform from scratch that ingests device data, alerts clinicians, and engages patients in their care.",
     goal: "Create a new healthcare platform that allows care teams to track chronic conditions with timely interventions and patient feedback systems.",
@@ -881,10 +1112,19 @@ export const projects = [
       "Granular consent management for data sharing."
     ],
     results: ["Alert-to-action time −29%", "Patient engagement 82%", "Hospital readmissions −14%"],
-    coverImage: { file: "health-monitoring.png", folder: "healthcare-remote-monitoring" },
+    coverImage: { file: "1.png", folder: "remote-monitoring" },
     gallery: [
-      { file: "health-clinician.png", folder: "healthcare-remote-monitoring" },
-      { file: "health-patient.png", folder: "healthcare-remote-monitoring" }
+      { file: "2.png", folder: "remote-monitoring" },
+      { file: "3.png", folder: "remote-monitoring" },
+      { file: "4.png", folder: "remote-monitoring" },
+      { file: "5.png", folder: "remote-monitoring" },
+      { file: "6.png", folder: "remote-monitoring" },
+      { file: "7.png", folder: "remote-monitoring" },
+      { file: "8.png", folder: "remote-monitoring" },
+      { file: "9.png", folder: "remote-monitoring" },
+      { file: "10.png", folder: "remote-monitoring" },
+      { file: "11.png", folder: "remote-monitoring" },
+      { file: "12.png", folder: "remote-monitoring" }
     ]
   },
   {
@@ -894,6 +1134,7 @@ export const projects = [
     role: "Automation Engineer",
     timeline: "2022",
     industry: "Diagnostics",
+    visualMode: "process",
     tech: ["Python", "Celery", "PostgreSQL", "Airflow", "FHIR"],
     summary: "Built a complete lab workflow automation platform from scratch with automated intake, result distribution, and provider notification systems.",
     goal: "Create a new diagnostics platform that handles surge testing volumes with traceable workflows and data interoperability for a fast-scaling lab.",
@@ -908,10 +1149,19 @@ export const projects = [
       "Data lineage tracking for regulatory reporting."
     ],
     results: ["Turnaround time −38%", "Manual data entry eliminated", "Regulatory audits passed with zero findings"],
-    coverImage: { file: "health-lab.png", folder: "healthcare-lab-automation" },
+    coverImage: { file: "1.png", folder: "lab-automation" },
     gallery: [
-      { file: "health-intake.png", folder: "healthcare-lab-automation" },
-      { file: "health-results.png", folder: "healthcare-lab-automation" }
+      { file: "2.png", folder: "lab-automation" },
+      { file: "3.png", folder: "lab-automation" },
+      { file: "4.png", folder: "lab-automation" },
+      { file: "5.png", folder: "lab-automation" },
+      { file: "6.png", folder: "lab-automation" },
+      { file: "7.png", folder: "lab-automation" },
+      { file: "8.png", folder: "lab-automation" },
+      { file: "9.png", folder: "lab-automation" },
+      { file: "10.png", folder: "lab-automation" },
+      { file: "11.png", folder: "lab-automation" },
+      { file: "12.png", folder: "lab-automation" }
     ]
   }
 ];
